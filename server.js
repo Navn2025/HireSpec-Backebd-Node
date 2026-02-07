@@ -39,7 +39,7 @@ import {setupSocketHandlers} from './socket/handlers.js';
 const app=express();
 const httpServer=createServer(app);
 
-const FRONTEND_URL=process.env.FRONTEND_URL||'http://localhost:5173';
+const FRONTEND_URL='https://hire-spec-frontend.vercel.app';
 
 const io=new Server(httpServer, {
     cors: {
