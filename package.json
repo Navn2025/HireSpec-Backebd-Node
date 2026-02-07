@@ -21,8 +21,10 @@
     "express": "^4.18.2",
     "face-api.js": "^0.22.2",
     "groq-sdk": "^0.3.3",
+    "jsonwebtoken": "^9.0.2",
     "multer": "^1.4.5-lts.1",
     "mysql2": "^3.16.3",
+    "pdf-parse": "^1.1.1",
     "socket.io": "^4.6.1",
     "uuid": "^9.0.1"
   },
