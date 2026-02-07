@@ -105,7 +105,7 @@ app.get('/api/health', (req, res) =>
 // Setup Socket.IO handlers
 setupSocketHandlers(io);
 
-const PORT=8080;
+const PORT=process.env.PORT || 8080;
 httpServer.listen(PORT, () =>
 {
     console.log(`🚀 Backend running on http://localhost:${PORT}`);
